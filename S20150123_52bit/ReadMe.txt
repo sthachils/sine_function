@@ -17,4 +17,4 @@ Steps
 
 
 
-Note: This code was done as an inspiration from Johhny Öberg, KTH in Jan 2015. https://people.kth.se/~johnnyob/
+Note: This code was done with inspiration from Johhny Öberg, KTH in Jan 2015. https://people.kth.se/~johnnyob/
