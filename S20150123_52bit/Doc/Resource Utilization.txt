@@ -1,0 +1,60 @@
+SYNTHESIS RESOURCE UTILIZATION
+
+Family    Cyclone IV GX
+Device    EP4CGX150DF31I7AD
+
+                                                                               COMB        REG         MEM    DSP     DSP18x18  
+|mcl_fxd_pipe_sv_top                                                           8603 (1)    2528  (0)     0    440      220
+|pipeline:i_pipeline_preproc_x2|                                                149 (149)    85  (85)    0    0        0
+|pipeline:i_pipeline_preproc_x|                                                   0 (0)      84  (84)    0    0        0
+|multiplier:i_multiplier_preproc_x2|                                            591 (0)       0  (0)     0    50       25
+|multiplier:i_multiplier_postproc|                                              738 (2)       0  (0)     0    50       25
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[10].i_mcl_fxd_pipe_basic_block|      917 (0)     172  (0)     0    50       25
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[9].i_mcl_fxd_pipe_basic_block|      1023(0)      255  (0)     0    50       25
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[8].i_mcl_fxd_pipe_basic_block|       747 (0)     245  (0)     0    40       20
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[7].i_mcl_fxd_pipe_basic_block|       643 (0)     239  (0)     0    40       20
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[6].i_mcl_fxd_pipe_basic_block|       608 (0)     232  (0)     0    40       20
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[5].i_mcl_fxd_pipe_basic_block|       475 (0)     223  (0)     0    30       15
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[4].i_mcl_fxd_pipe_basic_block|       444 (0)     216  (0)     0    30       15
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[3].i_mcl_fxd_pipe_basic_block|       295 (0)     208  (0)     0    20       10
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[2].i_mcl_fxd_pipe_basic_block|       270 (0)     199  (0)     0    20       10
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[1].i_mcl_fxd_pipe_basic_block|       105 (0)     190  (0)     0    10       5
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[0].i_mcl_fxd_pipe_basic_block|        86 (0)     180  (0)     0    10       5
+|float_to_fixed:i_float_to_fixed|                                               758 (758)     0  (0)     0    0        0
+|fixed_to_float:i_fixed_to_float|                                               753 (753)     0  (0)     0    0        0
+
+Total logic elements             10,162 / 149,760   ( 7 % )
+Total combinational functions     8,598 / 149,760   ( 6 % )
+Dedicated logic registers         2,150 / 149,760   ( 1 % )
+Total registers                   2150
+Total pins                          134 / 508       ( 26 % )
+Total memory bits                     0 / 6,635,520 ( 0 % )
+Embedded Multiplier 9-bit elements  440 / 720       ( 61 % )
+
+
+Max Frequency 35MHz
+
+
+Family    Cyclone II
+Device    EP2C35F672C8
+
+|mcl_fxd_pipe_sv_top                                                          62600 (1)    2516 (0)      0   70        35
+|fixed_to_float:i_fixed_to_float|                                               761 (761)     0 (0)      0    0        0
+|float_to_fixed:i_float_to_fixed|                                               773 (773)     0 (0)      0    0        0
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[0].i_mcl_fxd_pipe_basic_block|       451 (0)     179 (0)      0    0        0
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[10].i_mcl_fxd_pipe_basic_block|      8897 (0)    172 (0)      0    2        1
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[1].i_mcl_fxd_pipe_basic_block|       1453 (0)    190 (0)      0    0        0
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[2].i_mcl_fxd_pipe_basic_block|       880 (0)     199 (0)      0    8        4
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[3].i_mcl_fxd_pipe_basic_block|       1923 (0)    207 (0)      0    8        4
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[4].i_mcl_fxd_pipe_basic_block|       2437 (0)    215 (0)      0    10       5
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[5].i_mcl_fxd_pipe_basic_block|       3331 (0)    223 (0)      0    10       5
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[6].i_mcl_fxd_pipe_basic_block|       3783 (0)    230 (0)      0    12       6
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[7].i_mcl_fxd_pipe_basic_block|       5758 (0)    237 (0)      0    6        3
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[8].i_mcl_fxd_pipe_basic_block|       6898 (0)    245 (0)      0    4        2
+|mcl_fxd_pipe_basic_block:gen_MCL_pipeline[9].i_mcl_fxd_pipe_basic_block|       8125 (0)    250 (0)      0    2        1
+|multiplier:i_multiplier_postproc|                                              8928 (2)      0 (0)      0    2        1
+|multiplier:i_multiplier_preproc_x2|                                            7969 (0)      0 (0)      0    6        3
+|pipeline:i_pipeline_preproc_x2|                                                 232 (232)   85 (85)     0    0        0
+|pipeline:i_pipeline_preproc_x|                                                    0 (0)     84 (84)     0    0        0
+
+
