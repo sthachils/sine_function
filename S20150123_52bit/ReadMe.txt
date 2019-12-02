@@ -17,4 +17,5 @@ Steps
 
 
 
-Note: This code was done with inspiration from Johhny Öberg, KTH in Jan 2015. https://people.kth.se/~johnnyob/
+Note 1: This code was done with inspiration from Johhny Öberg, KTH in Jan 2015. https://people.kth.se/~johnnyob/
+Note 2: The main intent of this repo is documentation. Hence binary file such as *.pptx is checked-in.
