@@ -1,3 +1,8 @@
+Implementation of 16 decimal point accurate Sine function with McLaurin Expansion. 
+
+Input is angle in radians specified in IEEE 754 double-precision binary floating-point format.
+Ouput is the sine value specified in IEEE 754 double-precision binary floating-point format.
+
 Steps
 
 1) Run mathematica script generate coeffs and input 
@@ -9,3 +14,7 @@ Steps
    Command: run 3500
    Command: quit -sim
 4) Output is stored in SVOut.csv
+
+
+
+Note: This code was done as an inspiration from Johhny Öberg, KTH in Jan 2015. https://people.kth.se/~johnnyob/
