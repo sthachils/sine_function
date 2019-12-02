@@ -1,4 +1,4 @@
-Implementation of 16 decimal point accurate Sine function with McLaurin Expansion. 
+Implementation of scalable 16 decimal point accurate Sine function with McLaurin expansion.
 
 Input is angle in radians specified in IEEE 754 double-precision binary floating-point format.
 Ouput is the sine value specified in IEEE 754 double-precision binary floating-point format.
